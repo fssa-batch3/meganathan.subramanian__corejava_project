@@ -1,4 +1,4 @@
-package day101.Solved;
+package day01.Solved;
 /**
  * Solved Example for day 1
  * @author BharathwajSoundarara
