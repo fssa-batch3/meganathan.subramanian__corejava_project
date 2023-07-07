@@ -1,4 +1,4 @@
-package day2.practice;
+package day02.practice;
 
 public class User {
 	private String Username;
