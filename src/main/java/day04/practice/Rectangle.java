@@ -30,4 +30,10 @@ public class Rectangle extends Polygon {
 		return 2 * (this.length + this.breadth);
 	}
 
+	@Override
+	public double circumference() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 }

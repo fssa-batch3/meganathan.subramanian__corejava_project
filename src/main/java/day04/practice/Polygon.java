@@ -14,4 +14,9 @@ public abstract class Polygon {
 	public abstract double calculateArea();
 
 	public abstract double circumference();
+
+	public double Circumference() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 }
