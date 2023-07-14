@@ -24,7 +24,9 @@ public class StoreTask {
 		task.add(new StoreTask("Aravind", 10));
 		
 		// Print all the task 
-		for()
+		for( task : task ) {
+			
+		}
 			
 
 	}
