@@ -24,25 +24,21 @@ public class TaskMain {
 
 	public static void main(String[] args) {
 
-		taskArrayList taskArray = new taskArrayList();
+		ArrayList<Task> taskArray = new ArrayList<Task>();
 
-		Task task1 = new Task("Check Instagram", 1);
-		Task task2 = new Task("Clean my desk", 2);
-		Task task3 = new Task("Learn about web3.0", 3);
+		Task task1 = new Task("Check slack", 1);
+		Task task2 = new Task("doing routine", 2);
+		Task task3 = new Task("Learn about java", 3);
 		Task task4 = new Task("Learn java", 4);
-		Task task5 = new Task("complete the project", 5);
+		Task task5 = new Task("complete the task", 5);
 
-		taskArray.addElement(task1);
-		taskArray.addElement(task2);
-		taskArray.addElement(task3);
-		taskArray.addElement(task4);
-		taskArray.addElement(task5);
+		taskArray.add(task1);
+		taskArray.add(task2);
+		taskArray.add(task3);
+		taskArray.add(task4);
+		taskArray.add(task5);
 
-		System.out.print(taskArray.gettaskArray(task1));
-		System.out.print(taskArray.gettaskArray(task2));
-		System.out.print(taskArray.gettaskArray(task3));
-		System.out.print(taskArray.gettaskArray(task4));
-		System.out.print(taskArray.gettaskArray(task5));
+		System.out.print(taskArray);
 
 	}
 
