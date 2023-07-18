@@ -11,6 +11,8 @@ public class HashMapListObj {
 
         System.out.println("Enter department name and employee name (comma-separated, type 'exit' to stop):");
         String input = scanner.nextLine();
+        
+        
 
         while (!input.equalsIgnoreCase("exit")) {
             String[] parts = input.split(",");
@@ -36,9 +38,13 @@ public class HashMapListObj {
             List<String> employees = entry.getValue();
 
             System.out.print(department + ": ");
-            for (int i = 0; i < employees.size(); i++) {
+            
+            for (int i = 0; i < employees.size(); i++)
+            {
                 System.out.print(employees.get(i));
-                if (i != employees.size() - 1) {
+                
+                if (i != employees.size() - 1)
+                {
                     System.out.print(", ");
                 }
             }
