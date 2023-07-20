@@ -1,10 +1,13 @@
 package day11.solved;
 
+
+// import the java package 
 import java.sql.*;
 
 public class TestMysqlConnectionDemo {
 
 	public static void main(String[] args) throws SQLException {
+		
 
 		String url = "jdbc:mysql://localhost:3306/fssa";
 		String userName = "root";
@@ -13,12 +16,9 @@ public class TestMysqlConnectionDemo {
 		String query = "SELECT * FROM users";
 
 		Connection con = null;
-		try
-		{
+		try {
 			con = DriverManager.getConnection(url, userName, password);
-		}
-		catch (SQLException e) 
-		{
+		} catch (SQLException e) {
 			e.printStackTrace();
 		}
 
