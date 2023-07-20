@@ -6,6 +6,8 @@ import java.util.Collections;
 public class CollectionSortingDemo {
 	
 	public static void main(String[] args) {
+		
+		// Creating the array list 
 		ArrayList<String> cityNames = new ArrayList<String>();
 		cityNames.add("Delhi");
 		cityNames.add("Chennai");
